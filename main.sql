@@ -1,0 +1,6 @@
+CREATE TABLE test (
+    name VARCHAR(100) NOT NULL UNIQUE,
+    subject VARCHAR(255) NOT NULL,
+    marks VARCHAR(255) NOT NULL,
+    grade VARCHAR(255) NOT NULL
+);
